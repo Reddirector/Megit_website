@@ -2,7 +2,7 @@ export default function Logo({ size = 36, withText = true }) {
   return (
     <div className="flex items-center gap-2.5">
       <img
-        src="/logo.png"
+        src="/megit-logo.png"
         alt="Megit logo"
         width={size}
         height={size}
