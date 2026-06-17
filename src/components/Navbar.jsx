@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <nav className="container-max flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center hover:scale-105 transition-transform">
-          <Logo size={36} />
+          <Logo size={64} withText={false} />
         </Link>
 
         <div className="hidden lg:flex items-center gap-1">
