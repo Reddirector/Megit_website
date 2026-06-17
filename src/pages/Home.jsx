@@ -7,12 +7,12 @@ import PhoneMockup from '../components/PhoneMockup.jsx'
 import { SITE } from '../data/site.js'
 
 const features = [
-  { icon: Mic2, title: 'Synchronized Lyrics', desc: 'Real-time lyric sync with a soft purple glow on every active line.', img: '/screenshots/lyrics-sync.jpg' },
-  { icon: Palette, title: 'Custom Accent Colors', desc: 'Pick any color — sliders, icons, and the entire UI adapt instantly.', img: '/screenshots/accent-picker.jpg' },
-  { icon: Music, title: 'Vast Music Library', desc: 'Stream from YouTube Music — trending, global, and curated playlists.', img: '/screenshots/home-screen.jpg' },
-  { icon: Wifi, title: 'Offline Downloads', desc: 'Download tracks to your device and listen anywhere, anytime.', img: '/screenshots/settings.jpg' },
-  { icon: BarChart3, title: 'Listening Dashboard', desc: 'Beautiful stats — weekly, monthly, and yearly listening insights.', img: '/screenshots/dashboard.jpg' },
-  { icon: Headphones, title: 'Crossfade & Hi-Fi Audio', desc: 'Gapless transitions and adjustable streaming quality up to High.', img: '/screenshots/now-playing.jpg' }
+  { icon: Mic2, title: 'Synchronized Lyrics', desc: 'Real-time lyric sync with a soft purple glow on every active line.', img: '/Megit_website/screenshots/lyrics-sync.jpg' },
+  { icon: Palette, title: 'Custom Accent Colors', desc: 'Pick any color — sliders, icons, and the entire UI adapt instantly.', img: '/Megit_website/screenshots/accent-picker.jpg' },
+  { icon: Music, title: 'Vast Music Library', desc: 'Stream from YouTube Music — trending, global, and curated playlists.', img: '/Megit_website/screenshots/home-screen.jpg' },
+  { icon: Wifi, title: 'Offline Downloads', desc: 'Download tracks to your device and listen anywhere, anytime.', img: '/Megit_website/screenshots/settings.jpg' },
+  { icon: BarChart3, title: 'Listening Dashboard', desc: 'Beautiful stats — weekly, monthly, and yearly listening insights.', img: '/Megit_website/screenshots/dashboard.jpg' },
+  { icon: Headphones, title: 'Crossfade & Hi-Fi Audio', desc: 'Gapless transitions and adjustable streaming quality up to High.', img: '/Megit_website/screenshots/now-playing.jpg' }
 ]
 
 const stats = [

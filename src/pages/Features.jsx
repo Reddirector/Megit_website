@@ -9,28 +9,28 @@ const detail = [
     icon: Mic2,
     title: 'Real-time Synchronized Lyrics',
     text: 'Watch lyrics light up line-by-line as the song plays. A soft purple glow highlights the active line — perfect for singing along.',
-    img: '/screenshots/lyrics-glow.jpg',
+    img: '/Megit_website/screenshots/lyrics-glow.jpg',
     reverse: false
   },
   {
     icon: Palette,
     title: 'Fully Customizable Accent Colors',
     text: 'Pick any hue with the color picker — saturation and brightness sliders give you precise control. The entire UI updates instantly: sliders, icons, highlights, everything.',
-    img: '/screenshots/accent-red.jpg',
+    img: '/Megit_website/screenshots/accent-red.jpg',
     reverse: true
   },
   {
     icon: BarChart3,
     title: 'Detailed Listening Dashboard',
     text: 'Track your listening time by week, month, or year. See daily averages and discover your habits — wrapped in a sleek profile view.',
-    img: '/screenshots/dashboard.jpg',
+    img: '/Megit_website/screenshots/dashboard.jpg',
     reverse: false
   },
   {
     icon: Headphones,
     title: 'Hi-Fi Streaming & Crossfade',
     text: 'Choose from Low, Normal, High, or Automatic streaming quality. The crossfade slider gives you gapless transitions between tracks.',
-    img: '/screenshots/settings.jpg',
+    img: '/Megit_website/screenshots/settings.jpg',
     reverse: true
   }
 ]
