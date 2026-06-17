@@ -19,7 +19,7 @@ const stats = [
   { value: '1.2.0', label: 'Latest Release' },
   { value: '100%', label: 'Open Source' },
   { value: 'Flutter', label: 'Built With' },
-  { value: '🇮🇳', label: 'Made in India' }
+  { value: 'India', label: 'Made in India' }
 ]
 
 export default function Home() {
