@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Store the path for spa-github-pages
-      sessionStorage.redirect = '/' + window.location.pathname.split('/').slice(2).join('/');
+      // Store the path for spa-github-pages, preserving the /Megit_website/ base
+      var pathname = window.location.pathname;
+      // Remove /Megit_website/ from the beginning and store just the route
+      var route = pathname.replace('/Megit_website/', '');
+      sessionStorage.redirect = route || '/';
     </script>
-    <meta http-equiv="refresh" content="0;url=/">
+    <meta http-equiv="refresh" content="0;url=/Megit_website/">
   </head>
   <body>
   </body>

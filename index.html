@@ -23,7 +23,11 @@
       (function() {
         var redirect = sessionStorage.redirect;
         delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
+        if (redirect && redirect !== location.pathname) {
+          // Ensure the path starts with /Megit_website/
+          if (!redirect.startsWith('/Megit_website/')) {
+            redirect = '/Megit_website' + (redirect.startsWith('/') ? redirect : '/' + redirect);
+          }
           history.replaceState(null, null, redirect);
         }
       }());
