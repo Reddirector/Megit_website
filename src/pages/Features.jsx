@@ -9,38 +9,38 @@ const detail = [
     icon: Mic2,
     title: 'Real-time Synchronized Lyrics',
     text: 'Watch lyrics light up line-by-line as the song plays. A soft purple glow highlights the active line — perfect for singing along.',
-    img: '/Megit_website/screenshots/lyrics-glow.jpg',
+    img: '/screenshots/lyrics-glow.jpg',
     reverse: false
   },
   {
     icon: Palette,
     title: 'Fully Customizable Accent Colors',
     text: 'Pick any hue with the color picker — saturation and brightness sliders give you precise control. The entire UI updates instantly: sliders, icons, highlights, everything.',
-    img: '/Megit_website/screenshots/accent-red.jpg',
+    img: '/screenshots/accent-red.jpg',
     reverse: true
   },
   {
     icon: BarChart3,
     title: 'Detailed Listening Dashboard',
     text: 'Track your listening time by week, month, or year. See daily averages and discover your habits — wrapped in a sleek profile view.',
-    img: '/Megit_website/screenshots/dashboard.jpg',
+    img: '/screenshots/dashboard.jpg',
     reverse: false
   },
   {
     icon: Headphones,
-    title: 'Hi-Fi Streaming & Crossfade',
-    text: 'Choose from Low, Normal, High, or Automatic streaming quality. The crossfade slider gives you gapless transitions between tracks.',
-    img: '/Megit_website/screenshots/settings.jpg',
+    title: 'Sign in with Google + Download your songs',
+    text: 'Use Google to sign in, browse your YouTube Music library, and download songs directly to your device for offline listening.',
+    img: '/screenshots/settings.jpg',
     reverse: true
   }
 ]
 
 const grid = [
-  { icon: Music, title: 'YouTube Music', desc: 'Vast catalog of millions of tracks' },
-  { icon: Wifi, title: 'Offline Downloads', desc: 'Listen without an internet connection' },
+  { icon: Music, title: 'YouTube Music', desc: 'Sign in and explore millions of tracks' },
+  { icon: Wifi, title: 'Offline Downloads', desc: 'Download songs after you sign in' },
   { icon: Volume2, title: 'Background Playback', desc: 'Keep listening while you do anything' },
   { icon: Layers, title: 'Queue Management', desc: 'Up Next drawer for full queue control' },
-  { icon: Heart, title: 'Favorites', desc: 'One-tap heart icon to save tracks' },
+  { icon: Heart, title: 'Favorites', desc: 'Save songs with one tap' },
   { icon: Zap, title: 'Data Saver', desc: 'Stream lighter on cellular networks' },
   { icon: Shield, title: 'Open Source', desc: 'MIT licensed. Inspect every line.' },
   { icon: Sparkles, title: 'Glassmorphic UI', desc: 'Modern, minimal, beautifully smooth' }

@@ -2,10 +2,10 @@
 export const SITE = {
   name: 'Megit',
   tagline: 'Premium sound. Effortless flow.',
-  version: '1.2.0',
-  apkUrl: 'https://github.com/Reddirector/Megit/releases/download/v1.2.0/app-release.apk',
+  version: '3.0',
+  apkUrl: 'https://github.com/Reddirector/Megit/releases/tag/v3.0',
   repoUrl: 'https://github.com/Reddirector/Megit',
-  releaseUrl: 'https://github.com/Reddirector/Megit/releases/tag/v1.2.0',
+  releaseUrl: 'https://github.com/Reddirector/Megit/releases/tag/v3.0',
   // Update this when deploying to Vercel/Netlify
   domain: 'megit.vercel.app',
   country: 'India',

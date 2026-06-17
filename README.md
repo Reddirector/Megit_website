@@ -1,6 +1,9 @@
 # Megit Website
 
-Official marketing site for the Megit Android app — built with React, Vite, Tailwind CSS, and Framer Motion.
+Official marketing website for the Megit Android app — built with React, Vite, Tailwind CSS, and Framer Motion.
+
+GitHub: https://github.com/Reddirector/Megit_website
+
 
 ## Features
 - ✅ Fully responsive (mobile-first)
@@ -61,5 +64,6 @@ public/
 ```
 
 ## License
-MIT © Aditya Kumar
-# Megit-website
+MIT © Reddirector
+
+
